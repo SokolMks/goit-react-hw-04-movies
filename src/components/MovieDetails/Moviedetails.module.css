@@ -1,0 +1,36 @@
+.movie_details {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.movie_img {
+  margin-right: 50px;
+}
+
+.movie_text {
+  width: 700px;
+  line-height: 1.5;
+}
+.movie_title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.goBack_btn {
+  display: block;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.nav_item {
+  margin: 20px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.activeNavLink {
+  color: rgba(112, 192, 20, 0.829);
+}

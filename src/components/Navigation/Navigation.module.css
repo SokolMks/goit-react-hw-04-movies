@@ -1,0 +1,16 @@
+.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav_item {
+  margin: 20px;
+  padding: 5px;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.activeNavLink {
+  color: rgba(112, 192, 20, 0.829);
+}
