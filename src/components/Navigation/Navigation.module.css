@@ -9,8 +9,13 @@
   color: black;
   font-size: 22px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .activeNavLink {
-  color: rgba(112, 192, 20, 0.829);
+  color: rgba(241, 139, 23, 0.829);
+}
+input,
+button {
+  margin-left: 20px;
 }

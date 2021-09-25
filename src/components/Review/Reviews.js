@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import fetchMovies from '../../services/movie-api';
+import styles from './Review.module.css';
 
 const Reviews = ({ movieId }) => {
   const [reviews, setReviews] = useState([]);
@@ -16,7 +17,7 @@ const Reviews = ({ movieId }) => {
         <ul>
           {reviews.map(({ id, author, content }) => (
             <li key={id}>
-              <p>Author: {author}</p>
+              <p className={styles.author}>Author: {author}</p>
               <p>{content}</p>
             </li>
           ))}
